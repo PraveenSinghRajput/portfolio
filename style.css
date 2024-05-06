@@ -1,0 +1,163 @@
+/* General styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.menu {
+    position: fixed;
+    top: 20px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+}
+
+.menu-button {
+    background-color: #0360ac; /* Dark blue color */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu-items {
+    display: none;
+    background-color: #064e96; /* Dark blue color */
+    padding: 10px;
+}
+
+.menu-items a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 5px 10px;
+}
+
+.menu-items a:hover {
+    background-color: #0080ff; /* Slightly lighter blue */
+}
+
+.show {
+    display: block;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #0b78dd; /* Darkish blue color */
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo-container {
+    text-align: center;
+}
+
+.logo-container img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+/* Homepage specific styles */
+
+header {
+    background-image: url('images/image2.jpg'); /* Replace with your header background image */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Project page specific styles */
+
+section {
+    text-align: center;
+}
+
+section img {
+    margin-top: 20px;
+}
+
+/* Menu icon styles */
+.menu-icon {
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+    cursor: pointer;
+}
+
+.menu-icon div {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Responsive styles */
+
+@media only screen and (max-width: 600px) {
+    nav a {
+        padding: 5px 10px;
+    }
+
+    .logo-container img {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* Show the menu icon */
+    .menu-icon {
+        display: block;
+    }
+
+    /* Adjust header padding for smaller screens */
+    header {
+        padding: 20px 10px;
+    }
+}

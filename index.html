@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+<header style="background-image: url('images/image2.jpg');">
+    <h1>I'm PraveenSinghRajput</h1>
+    <div class="menu" id="menu">
+        <button class="menu-button" onclick="toggleMenu()" ><image src="images/scrollbar.png" width="20px"></image></button>
+        <div class="menu-items" id="menuItems">
+            <a href="home.html">Home</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+            <a href="certificate.html">Certificates</a>
+        </div>
+    </div>
+    
+    <script>
+        function toggleMenu() {
+            var menuItems = document.getElementById("menuItems");
+            menuItems.classList.toggle("show");
+        }
+    </script>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        Excelling in frontend development languages like JavaScript, HTML, and CSS, I've acquired my skills through guidance from an ex-Microsoft coder. The prospect of full-stack web development piques my curiosity, motivating me to delve deeper into this multifaceted field. Armed with a solid understanding of frontend technologies, I'm enthusiastic about broadening my knowledge and expertise. I'm eager to embark on a journey of continuous learning and growth, confident that my foundation in frontend development will serve as a springboard for mastering the intricacies of full-stack development.
+    </p>
+</section>
+
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    <p>Soon I will add some projects or else check my github.</p>
+
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email:parveensinghrajput9945@gmail.com.</p>
+</section>
+
+<footer>
+    <p>&copy; PraveenSinghRajput. All rights reserved.</p>
+    <div class="logo-container">
+        <a href="https://twitter.com/PraveenSingh069"><img src="images/twitter.png" alt="Twitter"></a>
+       <!-- <a href="https://in.linkedin.com"><img src="images/linkedin.png" alt="Facebook"></a>-->
+        <a href="https://github.com/PraveensinghRajput"><img src="images/github.png" alt="LinkedIn"></a>
+        <a href="https://instagram.com"><img src="images/instagram1.png" alt="Instagram"></a>
+    </div>
+</footer>
+
+</body>
+</html>
